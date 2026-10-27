@@ -189,7 +189,7 @@ function App() {
           <div className="status-indicator">
             <span className={`pulse-dot ${esDemo ? 'pulse-demo' : 'pulse-live'}`}></span>
             <span className="status-label">
-              {esDemo ? 'Modo Espera / Demo' : 'Sincronizado'}
+              {esDemo ? 'En espera' : 'Sincronizado'}
             </span>
           </div>
 
@@ -204,17 +204,6 @@ function App() {
           </button>
         </div>
       </header>
-
-      {/* Banner Informativo si Supabase no tiene datos todavía */}
-      {esDemo && (
-        <div className="banner-demo">
-          <span className="banner-icon">🌱</span>
-          <div>
-            <strong>Base de datos lista en Supabase:</strong> Mostrando valores de referencia en verde pastel. 
-            Tan pronto como tu ESP32 o servidor envíe el primer registro, el dashboard se actualizará automáticamente en tiempo real.
-          </div>
-        </div>
-      )}
 
       {/* Tarjeta Principal: Dictamen de la Inteligencia Artificial */}
       <section className="ai-card">
