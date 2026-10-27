@@ -1,0 +1,23 @@
+# Audio temporales
+*.wav
+*.mp3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Dashboard / Node
+dashboard/node_modules/
+dashboard/build/
+dashboard/.env.local
+dashboard/.env.development.local
+dashboard/.env.test.local
+dashboard/.env.production.local
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
