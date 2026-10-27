@@ -180,8 +180,8 @@ function App() {
         <div className="brand">
           <div className="brand-dot"></div>
           <div>
-            <h1 className="brand-title">BioSense</h1>
-            <p className="brand-subtitle">Monitor Ambiental & IA Embebida</p>
+            <h1 className="brand-title">Asistente</h1>
+
           </div>
         </div>
 
@@ -405,7 +405,7 @@ function App() {
 
       {/* Footer Minimalista */}
       <footer className="footer">
-        <p>BioSense IoT • ESP32 + Llama 3.1 + Supabase • Desplegado en Vercel</p>
+        <p>Asistente IoT • ESP32 + Llama 3.1 + Supabase • Desplegado en Vercel</p>
       </footer>
     </div>
   );
